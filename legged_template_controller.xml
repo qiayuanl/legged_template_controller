@@ -1,0 +1,9 @@
+<library path="legged_template_controller">
+    <class name="legged_template_controller/TemplateController"
+           type="legged::TemplateController"
+           base_class_type="controller_interface::ControllerInterface">
+        <description>
+            Template controller for legged robot.
+        </description>
+    </class>
+</library>
