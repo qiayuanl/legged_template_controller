@@ -1,5 +1,3 @@
-#include <memory>
-
 #include "legged_template_controller/TemplateController.h"
 
 namespace legged {
