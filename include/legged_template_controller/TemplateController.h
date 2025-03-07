@@ -5,7 +5,7 @@
 namespace legged {
 class TemplateController : public OnnxController {
  protected:
-  vector_t playModel(const vector_t& observations) const override;
+  bool parserObservation(const std::string& name) override;
 };
 
 }  // namespace legged
